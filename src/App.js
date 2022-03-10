@@ -58,3 +58,5 @@ export default App;
 // HashRouter는 /#/dsadasda 이런식으로 생김
 // Switch는 한 번에 한 번만 렌더링하기 위해
 // Link는 브라우저 새로고침 없이도 유저를 다른 페이지로 이동시켜주는 컴포넌트
+
+// 끝
