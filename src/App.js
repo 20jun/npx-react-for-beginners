@@ -13,6 +13,8 @@ function App() {
         `https://cors-anywhere.herokuapp.com/https://api.neople.co.kr/df/servers/anton/characters?characterName=${text}&apikey=3ZJOnzvz1XN7513uG4IGBKZzqRRKoa2s`
       )
     ).json();
+    // 간단히 테스트 하는 경우 위 사이트를 api 요청하는 주소 앞에 써주면 cors 정책
+    // 넘어가기 가능
 
     console.log(json.rows[0]);
     setName(json.rows[0].jobGrowName);
